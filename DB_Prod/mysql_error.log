@@ -895,3 +895,73 @@ InnoDB: for how to resolve the issue.
 2018-10-04 20:25:26 5360 [Note] Server socket created on IP: '::'.
 2018-10-04 20:25:26 5360 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
 Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-10-04 20:53:41 595c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2018-10-04 20:53:41 22876 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2018-10-04 20:53:41 22876 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2018-10-04 20:53:41 22876 [Note] InnoDB: The InnoDB memory heap is disabled
+2018-10-04 20:53:41 22876 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2018-10-04 20:53:41 22876 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2018-10-04 20:53:41 22876 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-10-04 20:53:41 22876 [Note] InnoDB: Using generic crc32 instructions
+2018-10-04 20:53:41 22876 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2018-10-04 20:53:41 22876 [Note] InnoDB: Completed initialization of buffer pool
+2018-10-04 20:53:41 22876 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-10-04 20:53:41 22876 [Note] InnoDB: The log sequence number 1835037 in ibdata file do not match the log sequence number 9570096 in the ib_logfiles!
+2018-10-04 20:53:41 22876 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/calificador_pc in the InnoDB data dictionary has tablespace id 32, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/configuracion in the InnoDB data dictionary has tablespace id 33, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/estados_usuarios in the InnoDB data dictionary has tablespace id 34, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/grabaciones in the InnoDB data dictionary has tablespace id 35, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/grupos_servicios in the InnoDB data dictionary has tablespace id 36, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/movimiento in the InnoDB data dictionary has tablespace id 37, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/observacion_ausencia in the InnoDB data dictionary has tablespace id 38, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/servicio in the InnoDB data dictionary has tablespace id 39, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/turnero in the InnoDB data dictionary has tablespace id 40, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table turnero/users in the InnoDB data dictionary has tablespace id 41, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [ERROR] InnoDB: Table universidad/estudiantes in the InnoDB data dictionary has tablespace id 31, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2018-10-04 20:53:41 22876 [Note] InnoDB: 128 rollback segment(s) are active.
+2018-10-04 20:53:41 22876 [Note] InnoDB: Waiting for purge to start
+2018-10-04 20:53:41 22876 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.2 started; log sequence number 9570096
+2018-10-04 20:53:41 9288 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2018-10-04 20:53:41 22876 [Note] Plugin 'FEEDBACK' is disabled.
+2018-10-04 20:53:41 22876 [Note] Server socket created on IP: '::'.
+2018-10-04 20:53:42 22876 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2018-10-04 20:53:59 17420 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-10-04 20:53:59 17420 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
+2018-10-04 20:55:43 15288 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'min_value' at position 3 to have type varbinary(255), found type varchar(255).
+2018-10-04 20:55:43 15288 [ERROR] Incorrect definition of table mysql.column_stats: expected column 'max_value' at position 4 to have type varbinary(255), found type varchar(255).
